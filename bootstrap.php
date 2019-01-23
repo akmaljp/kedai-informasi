@@ -9,6 +9,7 @@ namespace akmaljp\kedai-informasi;
 
 use Flarum\Formatter\Event\Configuring;
 use Illuminate\Events\Dispatcher;
+use akmaljp\Configurator\Bundles\MediaPack;
 
 function subscribe(Dispatcher $events)
 {
